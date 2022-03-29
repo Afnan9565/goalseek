@@ -3,7 +3,7 @@ function calc(){
     console.log(sum);
     var percentage = sum / 2;
     console.log(percentage);
-    var a = parseInt(document.getElementById("exper").value) / 100;
+    var a = parseFloat(document.getElementById("exper").value) / 100;
     var totalmarksrequired = a * 400;
     var marksneededmore = totalmarksrequired - sum;
     var marksineachsubjects = marksneededmore / 5;
